@@ -184,11 +184,6 @@ code {
   cursor: pointer;
 }
 
-.upload-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
 .counter-badge {
   position: absolute;
   top: 6px;
