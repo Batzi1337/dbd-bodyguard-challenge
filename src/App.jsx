@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Picture Grid</h1>
+        <h1>DBD Bodyguard Challenge</h1>
         <p>
           Left-click a tile to mark it <strong>green</strong>.
           Right-click to mark it <strong>red</strong> and decrease its
