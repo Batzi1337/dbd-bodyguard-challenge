@@ -30,11 +30,13 @@ function Tile({ index, src }) {
   }, [src, status, counter])
 
   const handleClick = () => {
-    if (status === 'red' && counter <= -1) {
+    let current_counter = counter
+    if (status === 'red' && current_counter < 0) {
+      current_counter++
       setCounter((prev) => prev +1)
     }
  
-    if (counter == 0) {
+    if (current_counter == 0) {
       setStatus('green')
     }
   }

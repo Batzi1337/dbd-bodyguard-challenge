@@ -9,6 +9,8 @@ according to the pictures in that folder.
 
 Run the tool using `npm run app`
 
+In the app, when clicking the left mouse button, the counter is **increased** and with the right mouse button **decreased**.
+
 ## Buy Me a Coffee
 
 If you enjoy using this tool and want to support its development, consider donating via PayPal!
